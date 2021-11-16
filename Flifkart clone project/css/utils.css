@@ -1,0 +1,17 @@
+
+
+
+.flex-all-center{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{border-radius: 6px;
+    margin-left: 12px;
+    padding: -35px 1px;
+    color: white;
+    background: #1c1cd2;
+    cursor: pointer;
+    border: 2px solid;
+
+}

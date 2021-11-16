@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap')
+
+*{
+     margin: 0;
+    padding: 0;
+}
+header{
+    background:#2874f0;;
+    font-family:'Lato', sans-serif;
+    height: 58px;
+}
+nav ul{
+    height: 22px;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin-left: -54px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a:hover {
+    color:rgb(73, 57, 57);
+    font-weight: bolder;
+
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+}
+.slider img{
+    width: inherit;
+    /* height: 425px; */
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 416px;
+    height: 17px;
+    border-radius: 7px;
+    padding-left: 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.container{
+    min-height: calc(100vh-58px-12vh)
+}
+footer{
+    height: 12vh;
+    background-color:#2874f0;;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
